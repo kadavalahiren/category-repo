@@ -1,7 +1,6 @@
-Step 1 :  Git Clone https://github.com/kadavalahiren/category-repo
-Step 2 :  Copy env.example to env
-step 3 :  composer install 
-step 4 :  migration run // php artisan migrate
-              or 
-          database import 
-step 5 : php artisan serve
+git clone https://github.com/kadavalahiren/category-repo
+cd category-repo
+cp .env.example .env
+composer install
+php artisan migrate     # or import database manually
+php artisan serve
